@@ -5,3 +5,17 @@ p =t("hello")
     a href=hohoho_path target="_blank" privacy policy
 #div2
     = link_to "privacy policy", hohoho_path,target:"_blank"
+-if user_signed_in?
+    #div1
+        a href=destroy_user_session_path target="_blank" log out
+    #div2
+        = link_to "log out", destroy_user_session_path,target:"_blank"
+-else
+    #div1
+        a href=new_user_registration_path target="_blank" sign up
+    #div2
+        = link_to "sign up", new_user_registration_path,target:"_blank"
+    #div1
+        a href=new_user_session_path target="_blank" log in
+    #div2
+        = link_to "log in", new_user_session_path,target:"_blank"
