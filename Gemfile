@@ -66,11 +66,11 @@ gem 'devise', '~> 4.6', '>= 4.6.2'
 
 # gem 'exception_notification', '~> 4.3'
 
-# gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 
-# gem 'bootstrap', '~> 4.2', '>= 4.2.1'
+gem 'bootstrap', '~> 4.2', '>= 4.2.1'
 
-# gem 'simple_form', github: 'plataformatec/simple_form'
+gem 'simple_form', github: 'plataformatec/simple_form'
 
 gem 'rails-i18n', '~> 5.1'
 
@@ -84,4 +84,4 @@ gem 'rails-i18n', '~> 5.1'
 
 # gem 'cocoon'
 
-# gem "font-awesome-rails"
+gem "font-awesome-rails"
